@@ -44,7 +44,8 @@ for (let i = 0; i < largeCountries.length; i++) {
 // shift() removes the first element from an array
 // unshift() adds an element to the beginning of an array
 let bigCountries = ["Tuvalu", "India", "USA", "Indonesia", "Monaco"];
-bigCountries.unshift("China");
+bigCountries.pop();
 bigCountries.push("Pakistan");
 bigCountries.shift();
+bigCountries.unshift("China");
 console.log(bigCountries);
